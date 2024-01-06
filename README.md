@@ -23,3 +23,5 @@ other is the net profit or loss on that particular days.
 1.This code only validates intraday buy/sell calls but it can be extended to handle all the messages.
 
 2.Also this is only done for equity this also can be extended.
+
+<h2>Validate_past.py</h2>
