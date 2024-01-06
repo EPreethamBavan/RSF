@@ -1,11 +1,3 @@
-"""
-Documentation:
-
-.This is a modified version of validate today, this can be used to validate past days.
-.This code updates days.txt file 
-.If we want to validate the past week we should specify timedelta(days =7) on line 44 and similary if we want past 30 days to
- be validated then we should specify  timedelta(days =30)
-"""
 # package import statement
 from smartapi import SmartConnect #or from smartapi.smartConnect import SmartConnect
 #import smartapi.smartExceptions(for smartExceptions)
