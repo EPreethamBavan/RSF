@@ -28,6 +28,8 @@ other is the net profit or loss on that particular days.
 
 
 ->This is a modified version of validate today, this can be used to validate past days.
+
 ->This code updates days.txt file 
+
 ->If we want to validate the past week we should specify timedelta(days =7) on line 44 and similary if we want past 30 days to
  be validated then we should specify timedelta(days =30)
