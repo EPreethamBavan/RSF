@@ -1,7 +1,7 @@
-<h3>1</h3>
+<h2>Validate_today.py</h2>
 This code validates equity intraday calls in AngelOneAdvisory telegram group.
 
-These are the 6 things this code does:
+<h3>These are the 6 things this code does:</h3>
 
 1.Messages are fetched from telegram AngelOneAdvisor group using telethon(telthon is a python library which uses the telegram api).
 
@@ -18,7 +18,7 @@ checked(3:20 is taken as the exit time).
 6.Finally days.txt is updated. days.txt contains two values for every weekday one is the number of messages on that particular day and the
 other is the net profit or loss on that particular days.
 
-Things to note:
+<h3>Things to note:</h3>
 
 1.This code only validates intraday buy/sell calls but it can be extended to handle all the messages.
 
