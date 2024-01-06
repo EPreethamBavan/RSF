@@ -4,13 +4,13 @@ Documentation:-
 This code validates equity intraday calls in AngelOneAdvisory telegram group.
 
 
-There are 6 things this code does:
+These are the 6 things this code does:
 
 1.Messages are fetched from telegram AngelOneAdvisor group using telethon(telthon is a python library which uses the telegram api).
 
 2.Then the necessary fields like date & time,equity name, SL , TGT and PRICE are extracted.
 
-3.Then using smart api (which is the api of AngelOne) the data for the day after the time the message was sent is fetched for that 
+3.Then using smart api (which is the api of AngelOne) the data of the day the message was sent and after the time the message was sent is fetched for that 
 particular stock.
 
 4.Then it is checked to see if SL or target was achieved if neither then, whether the call turned out to be a profit or loss on exit is 
